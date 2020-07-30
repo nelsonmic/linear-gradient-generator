@@ -1,0 +1,80 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, rgb(78, 84, 200), rgb(143, 148, 251)); /* Standard syntax */
+}
+
+main{
+    border:none;
+    position:relative;
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+    position:absolute;
+    top: 200px;
+}
+hr{
+    width:600px;
+    position:absolute;
+    top: 320px;
+    left:31%;
+}
+
+.code-display{
+    height: 100px;
+    width:600px;
+    background-color: beige;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 6px 6px 22px -1px rgba(31,24,31,0.79);
+    position: relative;
+    top: 500px;
+    left:31%;
+
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: #26405e;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    position: absolute;
+    top:20px;
+    left:40px;
+   
+
+}
+
+.color-picker{
+    position:absolute;
+    top: 400px;
+    left:43%;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: 1px solid white;
+	width: 100px;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 22px -1px rgba(31,24,31,0.79);
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+    
+}
+input[type="color"]::-webkit-color-swatch {
+    border: none;
+    border-radius: 30px;
+}

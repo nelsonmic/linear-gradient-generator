@@ -21,16 +21,17 @@ h1 {
     letter-spacing: .5em;
     width: 100%;
     position:absolute;
-    top: 200px;
+    top: 150px;
 }
+
 hr{
     width:600px;
     position:absolute;
-    top: 320px;
+    top: 270px;
     left:31%;
 }
 
-.code-display{
+.code-syntax-box{
     height: 100px;
     width:600px;
     background-color: beige;
@@ -43,7 +44,7 @@ hr{
 
 }
 
-h3 {
+.code-syntax {
 	font: 900 1em 'Raleway', sans-serif;
     color: #26405e;
     text-align: center;
@@ -58,8 +59,40 @@ h3 {
 
 .color-picker{
     position:absolute;
-    top: 400px;
+    top: 450px;
     left:43%;
+}
+
+input[type="text"]{
+    -webkit-appearance: none;
+    border: 1px solid white;
+    outline:none;
+	width: 200px;
+    height: 50px;
+    margin:10px;
+    padding:5px;
+    font: 600 1em 'Raleway', sans-serif;
+    color: #26405e;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 6px 6px 22px -1px rgba(31,24,31,0.5);
+}
+
+input[type="text"]{
+    position: relative;
+    top: 350px;
+}
+
+input[type="text"]::placeholder{
+    font: 500 1em 'Raleway', sans-serif;
+    color: #496e97;
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+
+input[type="text"]:hover{
+    box-shadow: 6px 6px 22px -1px rgba(31,24,31,1);
 }
 
 input[type="color"] {
@@ -69,6 +102,7 @@ input[type="color"] {
     height: 50px;
     border-radius: 30px;
     box-shadow: 6px 6px 22px -1px rgba(31,24,31,0.79);
+    outline:none;
 }
 input[type="color"]::-webkit-color-swatch-wrapper {
     padding: 0;
